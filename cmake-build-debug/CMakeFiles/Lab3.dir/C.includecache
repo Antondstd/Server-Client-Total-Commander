@@ -1,0 +1,42 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+D:/University/6_semester/SPO/Lab3/ApiFilesAndDir.c
+ApiFilesAndDir.h
+D:/University/6_semester/SPO/Lab3/ApiFilesAndDir.h
+
+D:/University/6_semester/SPO/Lab3/ApiFilesAndDir.h
+stdio.h
+-
+windows.h
+-
+locale.h
+-
+stdbool.h
+-
+conio.h
+-
+Console.h
+D:/University/6_semester/SPO/Lab3/Console.h
+ClientInput.h
+D:/University/6_semester/SPO/Lab3/ClientInput.h
+serverApiFiles.h
+D:/University/6_semester/SPO/Lab3/serverApiFiles.h
+
+D:/University/6_semester/SPO/Lab3/ClientInput.h
+ApiFilesAndDir.h
+D:/University/6_semester/SPO/Lab3/ApiFilesAndDir.h
+
+D:/University/6_semester/SPO/Lab3/Console.h
+ApiFilesAndDir.h
+D:/University/6_semester/SPO/Lab3/ApiFilesAndDir.h
+
+D:/University/6_semester/SPO/Lab3/serverApiFiles.h
+ApiFilesAndDir.h
+D:/University/6_semester/SPO/Lab3/ApiFilesAndDir.h
+
