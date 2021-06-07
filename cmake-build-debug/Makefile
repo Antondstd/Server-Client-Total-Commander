@@ -223,6 +223,33 @@ Console.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Lab3.dir\build.make CMakeFiles/Lab3.dir/Console.c.s
 .PHONY : Console.c.s
 
+client.obj: client.c.obj
+
+.PHONY : client.obj
+
+# target to build an object file
+client.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Lab3.dir\build.make CMakeFiles/Lab3.dir/client.c.obj
+.PHONY : client.c.obj
+
+client.i: client.c.i
+
+.PHONY : client.i
+
+# target to preprocess a source file
+client.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Lab3.dir\build.make CMakeFiles/Lab3.dir/client.c.i
+.PHONY : client.c.i
+
+client.s: client.c.s
+
+.PHONY : client.s
+
+# target to generate assembly for a file
+client.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Lab3.dir\build.make CMakeFiles/Lab3.dir/client.c.s
+.PHONY : client.c.s
+
 main.obj: main.c.obj
 
 .PHONY : main.obj
@@ -249,6 +276,60 @@ main.s: main.c.s
 main.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Lab3.dir\build.make CMakeFiles/Lab3.dir/main.c.s
 .PHONY : main.c.s
+
+messages.obj: messages.c.obj
+
+.PHONY : messages.obj
+
+# target to build an object file
+messages.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Lab3.dir\build.make CMakeFiles/Lab3.dir/messages.c.obj
+.PHONY : messages.c.obj
+
+messages.i: messages.c.i
+
+.PHONY : messages.i
+
+# target to preprocess a source file
+messages.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Lab3.dir\build.make CMakeFiles/Lab3.dir/messages.c.i
+.PHONY : messages.c.i
+
+messages.s: messages.c.s
+
+.PHONY : messages.s
+
+# target to generate assembly for a file
+messages.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Lab3.dir\build.make CMakeFiles/Lab3.dir/messages.c.s
+.PHONY : messages.c.s
+
+server.obj: server.c.obj
+
+.PHONY : server.obj
+
+# target to build an object file
+server.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Lab3.dir\build.make CMakeFiles/Lab3.dir/server.c.obj
+.PHONY : server.c.obj
+
+server.i: server.c.i
+
+.PHONY : server.i
+
+# target to preprocess a source file
+server.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Lab3.dir\build.make CMakeFiles/Lab3.dir/server.c.i
+.PHONY : server.c.i
+
+server.s: server.c.s
+
+.PHONY : server.s
+
+# target to generate assembly for a file
+server.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Lab3.dir\build.make CMakeFiles/Lab3.dir/server.c.s
+.PHONY : server.c.s
 
 serverApiFiles.obj: serverApiFiles.c.obj
 
@@ -277,6 +358,33 @@ serverApiFiles.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Lab3.dir\build.make CMakeFiles/Lab3.dir/serverApiFiles.c.s
 .PHONY : serverApiFiles.c.s
 
+serverFiles.obj: serverFiles.c.obj
+
+.PHONY : serverFiles.obj
+
+# target to build an object file
+serverFiles.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Lab3.dir\build.make CMakeFiles/Lab3.dir/serverFiles.c.obj
+.PHONY : serverFiles.c.obj
+
+serverFiles.i: serverFiles.c.i
+
+.PHONY : serverFiles.i
+
+# target to preprocess a source file
+serverFiles.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Lab3.dir\build.make CMakeFiles/Lab3.dir/serverFiles.c.i
+.PHONY : serverFiles.c.i
+
+serverFiles.s: serverFiles.c.s
+
+.PHONY : serverFiles.s
+
+# target to generate assembly for a file
+serverFiles.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Lab3.dir\build.make CMakeFiles/Lab3.dir/serverFiles.c.s
+.PHONY : serverFiles.c.s
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -295,12 +403,24 @@ help:
 	@echo ... Console.obj
 	@echo ... Console.i
 	@echo ... Console.s
+	@echo ... client.obj
+	@echo ... client.i
+	@echo ... client.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s
+	@echo ... messages.obj
+	@echo ... messages.i
+	@echo ... messages.s
+	@echo ... server.obj
+	@echo ... server.i
+	@echo ... server.s
 	@echo ... serverApiFiles.obj
 	@echo ... serverApiFiles.i
 	@echo ... serverApiFiles.s
+	@echo ... serverFiles.obj
+	@echo ... serverFiles.i
+	@echo ... serverFiles.s
 .PHONY : help
 
 

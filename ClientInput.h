@@ -6,8 +6,11 @@
 #include "ApiFilesAndDir.h"
 #define _CRT_SECURE_NO_WARNINGS
 
+BOOLEAN bActiveText;
+BOOLEAN bActiveDownloads;
+BOOLEAN bActiveUploads;
 BOOLEAN bActiveErrorMessage;
-BOOLEAN bActiveMessage;
+BOOLEAN greatLoop;
 
 int currentLineFiles;
 int startedLineFiles;

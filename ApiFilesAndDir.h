@@ -5,30 +5,38 @@
 #define UNICODE 1
 #define _WIN32_WINNT 0x0500
 #define _CRT_SECURE_NO_WARNINGS
+
+
+
 #include <stdio.h>
 #include <windows.h>
 #include <locale.h>
 #include <stdbool.h>
 #include <conio.h>
-#include "Console.h"
-#include "ClientInput.h"
-#include "serverApiFiles.h"
 
-typedef struct WFile {
-    wchar_t name[260];
-    wchar_t extension[260];
-    SYSTEMTIME stLastWriteTime;
-    BOOLEAN type;
-} WFile;
+//typedef struct WFile {
+//    wchar_t name[260];
+//    wchar_t extension[260];
+//    SYSTEMTIME stLastWriteTime;
+//    BOOLEAN type;
+//} WFile;
+//
+//typedef struct ArrayOfFiles {
+//    int count;
+//    WFile *wFile;
+//} ArrayOfFiles;
+//
+//typedef struct SocketMutexPair{
+//    SOCKET socket;
+//    HANDLE mutex;
+//} SocketMutexPair;
 
-typedef struct ArrayOfFiles {
-    int count;
-    WFile *wFile;
-} ArrayOfFiles;
-
+#include "MyTypes.h"
 //int currentLineFiles = 1;
 ArrayOfFiles *arrayOfFilesAndDir;
 WIN32_FIND_DATA findedFile;
+
+void addTimeToFileTime(FILETIME *f, double seconds);
 
 void freeArrayFilesDir(ArrayOfFiles *arrayOfFiles);
 

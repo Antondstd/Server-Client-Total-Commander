@@ -6,7 +6,9 @@
 #define _CRT_SECURE_NO_WARNINGS
 
 #include "ApiFilesAndDir.h"
+#include "Console.h"
 
+HANDLE hFind;
 void freeArrayFilesDir(ArrayOfFiles *arrayOfFiles) {
     free(arrayOfFiles->wFile);
     free(arrayOfFiles);
@@ -137,10 +139,10 @@ void writeExtension(int x, wchar_t *extension, BOOLEAN isDir) {
 
 void writeListOfFiles(int widthLines, int heightLines, int startingLine) {
     int forText = heightLines - LINES_FOR_BORDER - 1;
-    int isizeForName = widthLines - CellTimeSize - 1 - ExtensionSize;
-    cleanLines(LINES_FOR_BORDER, widthLines, LINES_FOR_BORDER, HeightConsole - LINES_FOR_BORDER * 2);
-    drawVLine(m_nScreenWidth - LINES_FOR_BORDER - CellTimeSize - 1, 1, HeightConsole - LINES_FOR_BORDER * 2);
-    for (int i = 1; i <= forText; i++) {
+    int isizeForName = widthLines - CellTimeSize - ExtensionSize;
+    cleanLines(LINES_FOR_BORDER, widthLines, LINES_FOR_BORDER, HeightConsole - LINES_FOR_BORDER * 2); // TODO Тут ошибка с widthLines чет не оч
+    drawVLine(m_nScreenWidth - LINES_FOR_BORDER - CellTimeSize - 1, 1, HeightConsole - LINES_FOR_BORDER * 2 + 1);
+    for (int i = 1; i <= heightLines; i++) {
         int nFile = i + startingLine - 1 - 1;
         if (nFile >= arrayOfFilesAndDir->count)
             break;
@@ -159,10 +161,39 @@ void writeListOfFiles(int widthLines, int heightLines, int startingLine) {
         }
         writeExtension(i * m_nScreenWidth + isizeForName + 1, arrayOfFilesAndDir->wFile[nFile].extension,
                        arrayOfFilesAndDir->wFile[nFile].type);
-        writeTime(i * m_nScreenWidth + widthLines - CellTimeSize + ((CellTimeSize - TextTimeSize) / 2),
+        writeTime((i+1) * m_nScreenWidth - CellTimeSize + ((CellTimeSize - TextTimeSize) / 2),
                   &arrayOfFilesAndDir->wFile[nFile].stLastWriteTime);
     }
 }
+
+//void writeListOfFiles(int widthLines, int heightLines, int startingLine) {
+//    int forText = heightLines - LINES_FOR_BORDER - 1;
+//    int isizeForName = widthLines - CellTimeSize - 1 - ExtensionSize;
+//    cleanLines(LINES_FOR_BORDER, widthLines, LINES_FOR_BORDER, HeightConsole - LINES_FOR_BORDER * 2);
+//    drawVLine(m_nScreenWidth - LINES_FOR_BORDER - CellTimeSize - 1, 1, HeightConsole - LINES_FOR_BORDER * 2);
+//    for (int i = 1; i <= forText; i++) {
+//        int nFile = i + startingLine - 1 - 1;
+//        if (nFile >= arrayOfFilesAndDir->count)
+//            break;
+//        if (wcslen(arrayOfFilesAndDir->wFile[nFile].name) > isizeForName) {
+//            for (int k = 0 + LINES_FOR_BORDER; k <= isizeForName - 4; k++) {
+//                m_bufScreen[i * m_nScreenWidth + k].Char.UnicodeChar = arrayOfFilesAndDir->wFile[nFile].name[k - 1];
+//            }
+//            m_bufScreen[i * m_nScreenWidth + isizeForName - 3].Char.UnicodeChar = L'.';
+//            m_bufScreen[i * m_nScreenWidth + isizeForName - 2].Char.UnicodeChar = L'.';
+//            m_bufScreen[i * m_nScreenWidth + isizeForName - 1].Char.UnicodeChar = L'.';
+//        } else {
+//            for (int k = 0; k < wcslen(arrayOfFilesAndDir->wFile[nFile].name); k++) {
+//                m_bufScreen[i * m_nScreenWidth + k +
+//                            LINES_FOR_BORDER].Char.UnicodeChar = arrayOfFilesAndDir->wFile[nFile].name[k];
+//            }
+//        }
+//        writeExtension(i * m_nScreenWidth + isizeForName + 1, arrayOfFilesAndDir->wFile[nFile].extension,
+//                       arrayOfFilesAndDir->wFile[nFile].type);
+//        writeTime(i * m_nScreenWidth + widthLines - CellTimeSize + ((CellTimeSize - TextTimeSize) / 2),
+//                  &arrayOfFilesAndDir->wFile[nFile].stLastWriteTime);
+//    }
+//}
 
 void getListOfFilesAndDir(wchar_t *path) {
     arrayOfFilesAndDir = calloc(1, sizeof(ArrayOfFiles));

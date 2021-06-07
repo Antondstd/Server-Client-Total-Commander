@@ -141,13 +141,69 @@ CMakeFiles/Lab3.dir/serverApiFiles.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Lab3.dir/serverApiFiles.c.s"
 	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\University\6_semester\SPO\Lab3\serverApiFiles.c -o CMakeFiles\Lab3.dir\serverApiFiles.c.s
 
+CMakeFiles/Lab3.dir/messages.c.obj: CMakeFiles/Lab3.dir/flags.make
+CMakeFiles/Lab3.dir/messages.c.obj: ../messages.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\University\6_semester\SPO\Lab3\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object CMakeFiles/Lab3.dir/messages.c.obj"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\Lab3.dir\messages.c.obj   -c D:\University\6_semester\SPO\Lab3\messages.c
+
+CMakeFiles/Lab3.dir/messages.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Lab3.dir/messages.c.i"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\University\6_semester\SPO\Lab3\messages.c > CMakeFiles\Lab3.dir\messages.c.i
+
+CMakeFiles/Lab3.dir/messages.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Lab3.dir/messages.c.s"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\University\6_semester\SPO\Lab3\messages.c -o CMakeFiles\Lab3.dir\messages.c.s
+
+CMakeFiles/Lab3.dir/server.c.obj: CMakeFiles/Lab3.dir/flags.make
+CMakeFiles/Lab3.dir/server.c.obj: ../server.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\University\6_semester\SPO\Lab3\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object CMakeFiles/Lab3.dir/server.c.obj"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\Lab3.dir\server.c.obj   -c D:\University\6_semester\SPO\Lab3\server.c
+
+CMakeFiles/Lab3.dir/server.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Lab3.dir/server.c.i"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\University\6_semester\SPO\Lab3\server.c > CMakeFiles\Lab3.dir\server.c.i
+
+CMakeFiles/Lab3.dir/server.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Lab3.dir/server.c.s"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\University\6_semester\SPO\Lab3\server.c -o CMakeFiles\Lab3.dir\server.c.s
+
+CMakeFiles/Lab3.dir/client.c.obj: CMakeFiles/Lab3.dir/flags.make
+CMakeFiles/Lab3.dir/client.c.obj: ../client.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\University\6_semester\SPO\Lab3\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object CMakeFiles/Lab3.dir/client.c.obj"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\Lab3.dir\client.c.obj   -c D:\University\6_semester\SPO\Lab3\client.c
+
+CMakeFiles/Lab3.dir/client.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Lab3.dir/client.c.i"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\University\6_semester\SPO\Lab3\client.c > CMakeFiles\Lab3.dir\client.c.i
+
+CMakeFiles/Lab3.dir/client.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Lab3.dir/client.c.s"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\University\6_semester\SPO\Lab3\client.c -o CMakeFiles\Lab3.dir\client.c.s
+
+CMakeFiles/Lab3.dir/serverFiles.c.obj: CMakeFiles/Lab3.dir/flags.make
+CMakeFiles/Lab3.dir/serverFiles.c.obj: ../serverFiles.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\University\6_semester\SPO\Lab3\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object CMakeFiles/Lab3.dir/serverFiles.c.obj"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\Lab3.dir\serverFiles.c.obj   -c D:\University\6_semester\SPO\Lab3\serverFiles.c
+
+CMakeFiles/Lab3.dir/serverFiles.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Lab3.dir/serverFiles.c.i"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\University\6_semester\SPO\Lab3\serverFiles.c > CMakeFiles\Lab3.dir\serverFiles.c.i
+
+CMakeFiles/Lab3.dir/serverFiles.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Lab3.dir/serverFiles.c.s"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\University\6_semester\SPO\Lab3\serverFiles.c -o CMakeFiles\Lab3.dir\serverFiles.c.s
+
 # Object files for target Lab3
 Lab3_OBJECTS = \
 "CMakeFiles/Lab3.dir/main.c.obj" \
 "CMakeFiles/Lab3.dir/Console.c.obj" \
 "CMakeFiles/Lab3.dir/ApiFilesAndDir.c.obj" \
 "CMakeFiles/Lab3.dir/ClientInput.c.obj" \
-"CMakeFiles/Lab3.dir/serverApiFiles.c.obj"
+"CMakeFiles/Lab3.dir/serverApiFiles.c.obj" \
+"CMakeFiles/Lab3.dir/messages.c.obj" \
+"CMakeFiles/Lab3.dir/server.c.obj" \
+"CMakeFiles/Lab3.dir/client.c.obj" \
+"CMakeFiles/Lab3.dir/serverFiles.c.obj"
 
 # External object files for target Lab3
 Lab3_EXTERNAL_OBJECTS =
@@ -157,11 +213,15 @@ Lab3.exe: CMakeFiles/Lab3.dir/Console.c.obj
 Lab3.exe: CMakeFiles/Lab3.dir/ApiFilesAndDir.c.obj
 Lab3.exe: CMakeFiles/Lab3.dir/ClientInput.c.obj
 Lab3.exe: CMakeFiles/Lab3.dir/serverApiFiles.c.obj
+Lab3.exe: CMakeFiles/Lab3.dir/messages.c.obj
+Lab3.exe: CMakeFiles/Lab3.dir/server.c.obj
+Lab3.exe: CMakeFiles/Lab3.dir/client.c.obj
+Lab3.exe: CMakeFiles/Lab3.dir/serverFiles.c.obj
 Lab3.exe: CMakeFiles/Lab3.dir/build.make
 Lab3.exe: CMakeFiles/Lab3.dir/linklibs.rsp
 Lab3.exe: CMakeFiles/Lab3.dir/objects1.rsp
 Lab3.exe: CMakeFiles/Lab3.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=D:\University\6_semester\SPO\Lab3\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking C executable Lab3.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=D:\University\6_semester\SPO\Lab3\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Linking C executable Lab3.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\Lab3.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
