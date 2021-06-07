@@ -4,30 +4,56 @@
 CMakeFiles/Lab3.dir/ApiFilesAndDir.c.obj
  D:/University/6_semester/SPO/Lab3/ApiFilesAndDir.c
  D:/University/6_semester/SPO/Lab3/ApiFilesAndDir.h
- D:/University/6_semester/SPO/Lab3/ClientInput.h
  D:/University/6_semester/SPO/Lab3/Console.h
- D:/University/6_semester/SPO/Lab3/serverApiFiles.h
+ D:/University/6_semester/SPO/Lab3/MyTypes.h
 CMakeFiles/Lab3.dir/ClientInput.c.obj
  D:/University/6_semester/SPO/Lab3/ApiFilesAndDir.h
  D:/University/6_semester/SPO/Lab3/ClientInput.c
  D:/University/6_semester/SPO/Lab3/ClientInput.h
  D:/University/6_semester/SPO/Lab3/Console.h
+ D:/University/6_semester/SPO/Lab3/MyTypes.h
+ D:/University/6_semester/SPO/Lab3/client.h
  D:/University/6_semester/SPO/Lab3/serverApiFiles.h
 CMakeFiles/Lab3.dir/Console.c.obj
  D:/University/6_semester/SPO/Lab3/ApiFilesAndDir.h
  D:/University/6_semester/SPO/Lab3/ClientInput.h
  D:/University/6_semester/SPO/Lab3/Console.c
  D:/University/6_semester/SPO/Lab3/Console.h
- D:/University/6_semester/SPO/Lab3/serverApiFiles.h
+ D:/University/6_semester/SPO/Lab3/MyTypes.h
+CMakeFiles/Lab3.dir/client.c.obj
+ D:/University/6_semester/SPO/Lab3/ApiFilesAndDir.h
+ D:/University/6_semester/SPO/Lab3/MyTypes.h
+ D:/University/6_semester/SPO/Lab3/client.c
+ D:/University/6_semester/SPO/Lab3/client.h
 CMakeFiles/Lab3.dir/main.c.obj
  D:/University/6_semester/SPO/Lab3/ApiFilesAndDir.h
  D:/University/6_semester/SPO/Lab3/ClientInput.h
  D:/University/6_semester/SPO/Lab3/Console.h
+ D:/University/6_semester/SPO/Lab3/MyTypes.h
+ D:/University/6_semester/SPO/Lab3/client.h
  D:/University/6_semester/SPO/Lab3/main.c
+ D:/University/6_semester/SPO/Lab3/server.h
+CMakeFiles/Lab3.dir/messages.c.obj
+ D:/University/6_semester/SPO/Lab3/ApiFilesAndDir.h
+ D:/University/6_semester/SPO/Lab3/MyTypes.h
+ D:/University/6_semester/SPO/Lab3/messages.c
+ D:/University/6_semester/SPO/Lab3/messages.h
+CMakeFiles/Lab3.dir/server.c.obj
+ D:/University/6_semester/SPO/Lab3/ApiFilesAndDir.h
+ D:/University/6_semester/SPO/Lab3/MyTypes.h
+ D:/University/6_semester/SPO/Lab3/server.c
+ D:/University/6_semester/SPO/Lab3/server.h
  D:/University/6_semester/SPO/Lab3/serverApiFiles.h
+ D:/University/6_semester/SPO/Lab3/serverFiles.h
 CMakeFiles/Lab3.dir/serverApiFiles.c.obj
  D:/University/6_semester/SPO/Lab3/ApiFilesAndDir.h
- D:/University/6_semester/SPO/Lab3/ClientInput.h
- D:/University/6_semester/SPO/Lab3/Console.h
+ D:/University/6_semester/SPO/Lab3/MyTypes.h
  D:/University/6_semester/SPO/Lab3/serverApiFiles.c
  D:/University/6_semester/SPO/Lab3/serverApiFiles.h
+CMakeFiles/Lab3.dir/serverFiles.c.obj
+ D:/University/6_semester/SPO/Lab3/ApiFilesAndDir.h
+ D:/University/6_semester/SPO/Lab3/MyTypes.h
+ D:/University/6_semester/SPO/Lab3/server.h
+ D:/University/6_semester/SPO/Lab3/serverApiFiles.h
+ D:/University/6_semester/SPO/Lab3/serverFiles.c
+ D:/University/6_semester/SPO/Lab3/serverFiles.h

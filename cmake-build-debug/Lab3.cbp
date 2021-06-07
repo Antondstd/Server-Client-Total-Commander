@@ -92,13 +92,40 @@
 		<Unit filename="D:/University/6_semester/SPO/Lab3/Console.h">
 			<Option target="Lab3"/>
 		</Unit>
+		<Unit filename="D:/University/6_semester/SPO/Lab3/MyTypes.h">
+			<Option target="Lab3"/>
+		</Unit>
+		<Unit filename="D:/University/6_semester/SPO/Lab3/client.c">
+			<Option target="Lab3"/>
+		</Unit>
+		<Unit filename="D:/University/6_semester/SPO/Lab3/client.h">
+			<Option target="Lab3"/>
+		</Unit>
 		<Unit filename="D:/University/6_semester/SPO/Lab3/main.c">
+			<Option target="Lab3"/>
+		</Unit>
+		<Unit filename="D:/University/6_semester/SPO/Lab3/messages.c">
+			<Option target="Lab3"/>
+		</Unit>
+		<Unit filename="D:/University/6_semester/SPO/Lab3/messages.h">
+			<Option target="Lab3"/>
+		</Unit>
+		<Unit filename="D:/University/6_semester/SPO/Lab3/server.c">
+			<Option target="Lab3"/>
+		</Unit>
+		<Unit filename="D:/University/6_semester/SPO/Lab3/server.h">
 			<Option target="Lab3"/>
 		</Unit>
 		<Unit filename="D:/University/6_semester/SPO/Lab3/serverApiFiles.c">
 			<Option target="Lab3"/>
 		</Unit>
 		<Unit filename="D:/University/6_semester/SPO/Lab3/serverApiFiles.h">
+			<Option target="Lab3"/>
+		</Unit>
+		<Unit filename="D:/University/6_semester/SPO/Lab3/serverFiles.c">
+			<Option target="Lab3"/>
+		</Unit>
+		<Unit filename="D:/University/6_semester/SPO/Lab3/serverFiles.h">
 			<Option target="Lab3"/>
 		</Unit>
 		<Unit filename="D:/University/6_semester/SPO/Lab3/CMakeLists.txt">

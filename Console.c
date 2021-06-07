@@ -2,9 +2,15 @@
 // Created by ad3st on 23.05.2021.
 //
 #include "Console.h"
+#include "ClientInput.h"
 
 int widthLineFiles = WidthConsole - LINES_FOR_BORDER*2;
 int lastLineFiles = HeightConsole - LINES_FOR_BORDER - 1;
+
+
+void updateAll(){
+
+}
 
 void markLine(int x, int y, int width, BOOLEAN clean, BOOLEAN skipBorder) {
     WORD style;
@@ -174,13 +180,13 @@ void updateConsole() {
 }
 
 void updateFilesBox(wchar_t *path) {
-    free(arrayOfFilesAndDir);
-    getListOfFilesAndDir(path);
+//    free(arrayOfFilesAndDir);
+//    getListOfFilesAndDir(path);
 
     currentLineFiles = 1;
     scrollCounterFiles = 1;
 
-    writeListOfFiles(widthLineFiles, m_nScreenHeight, scrollCounterFiles);
+    writeListOfFiles(m_nScreenWidth - LINES_FOR_BORDER * 2, m_nScreenHeight - LINES_FOR_BORDER - 1, scrollCounterFiles);
     markLine(LINES_FOR_BORDER, currentLineFiles, widthLineFiles, false, true);
     updateConsole();
 }

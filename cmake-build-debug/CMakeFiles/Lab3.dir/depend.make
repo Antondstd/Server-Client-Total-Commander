@@ -3,31 +3,57 @@
 
 CMakeFiles/Lab3.dir/ApiFilesAndDir.c.obj: ../ApiFilesAndDir.c
 CMakeFiles/Lab3.dir/ApiFilesAndDir.c.obj: ../ApiFilesAndDir.h
-CMakeFiles/Lab3.dir/ApiFilesAndDir.c.obj: ../ClientInput.h
 CMakeFiles/Lab3.dir/ApiFilesAndDir.c.obj: ../Console.h
-CMakeFiles/Lab3.dir/ApiFilesAndDir.c.obj: ../serverApiFiles.h
+CMakeFiles/Lab3.dir/ApiFilesAndDir.c.obj: ../MyTypes.h
 
 CMakeFiles/Lab3.dir/ClientInput.c.obj: ../ApiFilesAndDir.h
 CMakeFiles/Lab3.dir/ClientInput.c.obj: ../ClientInput.c
 CMakeFiles/Lab3.dir/ClientInput.c.obj: ../ClientInput.h
 CMakeFiles/Lab3.dir/ClientInput.c.obj: ../Console.h
+CMakeFiles/Lab3.dir/ClientInput.c.obj: ../MyTypes.h
+CMakeFiles/Lab3.dir/ClientInput.c.obj: ../client.h
 CMakeFiles/Lab3.dir/ClientInput.c.obj: ../serverApiFiles.h
 
 CMakeFiles/Lab3.dir/Console.c.obj: ../ApiFilesAndDir.h
 CMakeFiles/Lab3.dir/Console.c.obj: ../ClientInput.h
 CMakeFiles/Lab3.dir/Console.c.obj: ../Console.c
 CMakeFiles/Lab3.dir/Console.c.obj: ../Console.h
-CMakeFiles/Lab3.dir/Console.c.obj: ../serverApiFiles.h
+CMakeFiles/Lab3.dir/Console.c.obj: ../MyTypes.h
+
+CMakeFiles/Lab3.dir/client.c.obj: ../ApiFilesAndDir.h
+CMakeFiles/Lab3.dir/client.c.obj: ../MyTypes.h
+CMakeFiles/Lab3.dir/client.c.obj: ../client.c
+CMakeFiles/Lab3.dir/client.c.obj: ../client.h
 
 CMakeFiles/Lab3.dir/main.c.obj: ../ApiFilesAndDir.h
 CMakeFiles/Lab3.dir/main.c.obj: ../ClientInput.h
 CMakeFiles/Lab3.dir/main.c.obj: ../Console.h
+CMakeFiles/Lab3.dir/main.c.obj: ../MyTypes.h
+CMakeFiles/Lab3.dir/main.c.obj: ../client.h
 CMakeFiles/Lab3.dir/main.c.obj: ../main.c
-CMakeFiles/Lab3.dir/main.c.obj: ../serverApiFiles.h
+CMakeFiles/Lab3.dir/main.c.obj: ../server.h
+
+CMakeFiles/Lab3.dir/messages.c.obj: ../ApiFilesAndDir.h
+CMakeFiles/Lab3.dir/messages.c.obj: ../MyTypes.h
+CMakeFiles/Lab3.dir/messages.c.obj: ../messages.c
+CMakeFiles/Lab3.dir/messages.c.obj: ../messages.h
+
+CMakeFiles/Lab3.dir/server.c.obj: ../ApiFilesAndDir.h
+CMakeFiles/Lab3.dir/server.c.obj: ../MyTypes.h
+CMakeFiles/Lab3.dir/server.c.obj: ../server.c
+CMakeFiles/Lab3.dir/server.c.obj: ../server.h
+CMakeFiles/Lab3.dir/server.c.obj: ../serverApiFiles.h
+CMakeFiles/Lab3.dir/server.c.obj: ../serverFiles.h
 
 CMakeFiles/Lab3.dir/serverApiFiles.c.obj: ../ApiFilesAndDir.h
-CMakeFiles/Lab3.dir/serverApiFiles.c.obj: ../ClientInput.h
-CMakeFiles/Lab3.dir/serverApiFiles.c.obj: ../Console.h
+CMakeFiles/Lab3.dir/serverApiFiles.c.obj: ../MyTypes.h
 CMakeFiles/Lab3.dir/serverApiFiles.c.obj: ../serverApiFiles.c
 CMakeFiles/Lab3.dir/serverApiFiles.c.obj: ../serverApiFiles.h
+
+CMakeFiles/Lab3.dir/serverFiles.c.obj: ../ApiFilesAndDir.h
+CMakeFiles/Lab3.dir/serverFiles.c.obj: ../MyTypes.h
+CMakeFiles/Lab3.dir/serverFiles.c.obj: ../server.h
+CMakeFiles/Lab3.dir/serverFiles.c.obj: ../serverApiFiles.h
+CMakeFiles/Lab3.dir/serverFiles.c.obj: ../serverFiles.c
+CMakeFiles/Lab3.dir/serverFiles.c.obj: ../serverFiles.h
 

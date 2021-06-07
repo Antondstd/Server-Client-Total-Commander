@@ -6,10 +6,6 @@
 
 #IncludeRegexTransform: 
 
-D:/University/6_semester/SPO/Lab3/ApiFilesAndDir.c
-ApiFilesAndDir.h
-D:/University/6_semester/SPO/Lab3/ApiFilesAndDir.h
-
 D:/University/6_semester/SPO/Lab3/ApiFilesAndDir.h
 stdio.h
 -
@@ -21,18 +17,30 @@ stdbool.h
 -
 conio.h
 -
-Console.h
-D:/University/6_semester/SPO/Lab3/Console.h
+MyTypes.h
+D:/University/6_semester/SPO/Lab3/MyTypes.h
+
+D:/University/6_semester/SPO/Lab3/ClientInput.c
 ClientInput.h
 D:/University/6_semester/SPO/Lab3/ClientInput.h
+Console.h
+D:/University/6_semester/SPO/Lab3/Console.h
 serverApiFiles.h
 D:/University/6_semester/SPO/Lab3/serverApiFiles.h
+client.h
+D:/University/6_semester/SPO/Lab3/client.h
 
 D:/University/6_semester/SPO/Lab3/ClientInput.h
 ApiFilesAndDir.h
 D:/University/6_semester/SPO/Lab3/ApiFilesAndDir.h
 
 D:/University/6_semester/SPO/Lab3/Console.h
+ApiFilesAndDir.h
+D:/University/6_semester/SPO/Lab3/ApiFilesAndDir.h
+
+D:/University/6_semester/SPO/Lab3/MyTypes.h
+
+D:/University/6_semester/SPO/Lab3/client.h
 ApiFilesAndDir.h
 D:/University/6_semester/SPO/Lab3/ApiFilesAndDir.h
 
